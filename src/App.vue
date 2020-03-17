@@ -1,28 +1,55 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavBar />
+    <div class="product-display">
+      <CategoryBar />
+      <ImgComponent />
+    </div> 
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar';
+import CategoryBar from './components/CategoryBar';
+import ImgComponent from './components/ImgComponent';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavBar,
+    CategoryBar,
+    ImgComponent
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app{
+    margin: 0 auto;
+    max-width: 1260px;
+  }
+
+  .product-display{
+    margin: 0 auto;
+    display: flex;
+  }
+
+  @media (max-width: 470px){
+    .product-display{
+      flex-direction: column;
+    }
+
+    .category{
+      min-width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      margin-left: 19px;
+      margin-right: 0px;
+    }
+
+    .products{
+      margin: 0 auto;
+    }
+  }
+
 </style>
