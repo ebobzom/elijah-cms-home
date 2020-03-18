@@ -2,9 +2,10 @@
   <div id="app">
     <NavBar />
     <div class="product-display">
-      <CategoryBar />
-      <ImgComponent />
+        <CategoryBar />
+        <TestPage />
     </div> 
+    <ImgComponent />
   </div>
 </template>
 
@@ -12,13 +13,15 @@
 import NavBar from './components/NavBar';
 import CategoryBar from './components/CategoryBar';
 import ImgComponent from './components/ImgComponent';
+import TestPage from './components/TestPage';
 
 export default {
   name: 'App',
   components: {
     NavBar,
     CategoryBar,
-    ImgComponent
+    ImgComponent,
+    TestPage
   }
 }
 </script>

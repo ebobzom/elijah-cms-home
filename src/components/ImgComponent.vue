@@ -106,7 +106,7 @@ export default {
         margin: 2px;
     }
     .products{
-        width: 75%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         float: right;
