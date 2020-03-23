@@ -21,7 +21,7 @@ export default {
             products:[
                 {
                     id: 1,
-                    name: 'Aida 44 Inch TV',
+                    name: 'Aida TV',
                     price: '108,000',
                     productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
                     imageLink: require('../assets/aida-44-inch.jpg'),
@@ -29,7 +29,7 @@ export default {
                 },
                 {
                     id: 2,
-                    name: 'Bensoni HD TV',
+                    name: 'Bensoni TV',
                     price: '150,000',
                     productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
                     imageLink: require('../assets/bensoni-hd.jpg'),
@@ -37,7 +37,7 @@ export default {
                 },
                 {
                     id: 3,
-                    name: 'Best Seller Books',
+                    name: 'Best Seller',
                     price: '15,000',
                     productDetail: 'Bishop Dag Heward-Mills, an exceptional Christian leader, reveals one of his secrets: "If anyone were to ask me what the greatest secret of my relationship with God is, I would say, without hesitation, that it is the power of the quiet times I have with Him everyday." He has decided to write this book',
                     imageLink: require('../assets/books.jpg'),
@@ -61,7 +61,7 @@ export default {
                 },
                 {
                     id: 6,
-                    name: 'Imose Kampe',
+                    name: 'Imose',
                     price: '67,999',
                     productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
                     imageLink: require('../assets/imose-kampe.jpeg'),
@@ -70,7 +70,7 @@ export default {
                 {
                     id: 7,
                     name: 'Old Books',
-                    price: '5,999',
+                    price: '50,999',
                     productDetail: 'Bishop Dag Heward-Mills, an exceptional Christian leader, reveals one of his secrets: "If anyone were to ask me what the greatest secret of my relationship with God is, I would say, without hesitation, that it is the power of the quiet times I have with Him everyday." He has decided to write this book',
                     imageLink: require('../assets/old-books.jpg'),
                     categoryId: 6
@@ -85,7 +85,7 @@ export default {
                 },
                 {
                     id: 9,
-                    name: 'Samsung Galaxy',
+                    name: 'Samsung',
                     price: '77,999',
                     productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
                     imageLink: require('../assets/samsung-galaxy.jpg'),
