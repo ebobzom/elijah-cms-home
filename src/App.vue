@@ -6,54 +6,8 @@
         <TestPage />
     </div> 
     <ImgComponent />
-     <!-- <b-card >
-        <b-card-text>
-            <h6>ok</h6>
-            <a class="links" href="#">ok</a>
-        </b-card-text>
-    </b-card> -->
     <div id="ft-container">
-      <!-- <Footer v-for="(containers, index) in urlData" :key="containers.id" :propsUrlList="containers" :titleContent="titleData[index]" /> -->
-      <b-card class="test">
-        <b-card-text>
-            <h6>ABOUT</h6>
-            <a href="#">Contact us</a>
-            <a href="#">How to shop on Jumia?</a>
-            <a href="#">Delivery options and timelines</a>
-            <a href="#">How to return a product on Jumia?</a>
-            <a href="#">Corporate and bulk purchase</a>
-        </b-card-text>
-      </b-card>
-      <b-card class="test">
-        <b-card-text>
-            <h6>HELP</h6>
-            <a href="#">Contact us</a>
-            <a href="#">How to shop on Jumia?</a>
-            <a href="#">Delivery options and timelines</a>
-            <a href="#">How to return a product on Jumia?</a>
-            <a href="#">Corporate and bulk purchase</a>
-        </b-card-text>
-      </b-card>
-      <b-card class="test">
-        <b-card-text>
-            <h6>JUMIA</h6>
-            <a href="#">Contact us</a>
-            <a href="#">How to shop on Jumia?</a>
-            <a href="#">Delivery options and timelines</a>
-            <a href="#">How to return a product on Jumia?</a>
-            <a href="#">Corporate and bulk purchase</a>
-        </b-card-text>
-      </b-card>
-      <b-card class="test">
-        <b-card-text>
-            <h6> MONEY</h6>
-            <a href="#">Contact us</a>
-            <a href="#">How to shop on Jumia?</a>
-            <a href="#">Delivery options and timelines</a>
-            <a href="#">How to return a product on Jumia?</a>
-            <a href="#">Corporate and bulk purchase</a>
-        </b-card-text>
-      </b-card>
+      <Footer v-for="(containers, index) in urlData" :key="containers.id" :propsUrlList="containers" :titleContent="titleData[index]" />
     </div>
   </div>
 </template>
@@ -63,23 +17,62 @@ import NavBar from './components/NavBar';
 import CategoryBar from './components/CategoryBar';
 import ImgComponent from './components/ImgComponent';
 import TestPage from './components/TestPage';
-// import Footer from './components/FooterLinkComponent'
+import Footer from './components/FooterLinkComponent'
 
 export default {
   name: 'App',
   data(){
     return{
-      titleData: ['LET US HELP YOU', 'ABOUT JUMIA'],
+      titleData: ['LET US HELP YOU', 'ABOUT JUMIA', 'MAKE MONEY WITH JUMIA', 'JUMIA INTERNATIONAL'],
       urlData: [
         {
           id: 1,
           path: '#',
-          content: 'Help Center'
+          content: [
+            'Help Center', 
+            'Contact us',
+            'How to shop on Jumia?',
+            'Delivery options and timelines',
+            'How to return a product on Jumia?',
+            'Corporate and bulk purchases'
+            ]
         },
         {
           id: 2,
           path: '#',
-          content: 'Contact us'
+          content: [
+            'About us',
+            'Jumia careers',
+            'Jumia Express',
+            'Terms and Conditions',
+            'Privacy policy',
+            'Tech Week',
+            'Jumia Prime',
+            'Stay Safe'
+          ]
+        },
+        {
+          id: 3,
+          path: '#',
+          content: [
+            'Sell on Jumia',
+            'Become an Affiliate Partner',
+            'Become a Sales Consultant',
+            'Become a Jumia Vendor Service Provider',
+            'Become a Logistics Service Partner'
+          ]
+        },
+        {
+          id: 4,
+          path: '#',
+          content: [
+            'Algeria',
+            'Egypt',
+            'Ghana',
+            'Ivory Coast',
+            'Kenya',
+            'Morocco'
+          ]
         }
       ]
     }
@@ -89,7 +82,7 @@ export default {
     CategoryBar,
     ImgComponent,
     TestPage,
-    // Footer
+    Footer
   }
 }
 </script>
@@ -98,6 +91,11 @@ export default {
   #app{
     margin: 0 auto;
     max-width: 1260px;
+  }
+
+  #ft-container{
+    width: 100%;
+    display: flex;
   }
 
   .test{

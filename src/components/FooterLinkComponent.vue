@@ -3,7 +3,7 @@
     <b-card class="each-card">
         <b-card-text>
             <h6>{{titleContent}}</h6>
-            <a class="links" href="#">{{ propsUrlList.content }}</a>
+            <a v-for="(cont, index) in propsUrlList.content" :key="index" class="links" href="#">{{ cont }}</a>
         </b-card-text>
     </b-card>
 
@@ -16,30 +16,20 @@ export default {
 </script>
 
 <style scoped>
-    h6{
-        font-size: 18px;
-        text-align: left;
-        padding: 0;
-        margin: 0;
+
+
+    .each-card{
+        border: none;
+        margin-top: 20px;
+        width: 25%;
+        background-color: #f5eded;
     }
 
     .links{
         margin: 0;
         padding: 0;
-        width: 100px;
-        color: red;
-        text-align: left;
-        /* margin-right: 90px; */
-    }
-
-    .each-card{
-        width: 100px;
-        margin: 0 auto;
-        text-align: center;
-        /* background-color: #323232; */
-    }
-
-    .footer-link{
-        border: 2px solid green;
+        display: block;
+        color: rgb(61, 54, 54);
+        font-size: 12px;
     }
 </style>
