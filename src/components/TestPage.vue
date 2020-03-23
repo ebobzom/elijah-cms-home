@@ -4,9 +4,6 @@
         <slide v-for="image in imageLinks" :key="image.imgLink">
             <img class="imgStyle" :src="image.imgLink" alt="image carousel" />
         </slide>
-        <!-- <slide>
-            Slide 2 Content
-        </slide> -->
     </carousel>
   </div>
 </template>
