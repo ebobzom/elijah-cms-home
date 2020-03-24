@@ -4,20 +4,20 @@
 
             <div class="container">
                 <div class="img-container">
-                    <img class="main-img" :src="nameObj.imageLink" alt="main image">
+                    <img class="main-img" :src="selectedObj.imageLink" alt="main image">
                     <div class="sub-img">
-                        <img :src="nameObj.imageLink" alt="different image view">
-                        <img :src="nameObj.imageLink" alt="different image view">
-                        <img :src="nameObj.imageLink" alt="different image view">
+                        <img :src="selectedObj.imageLink" alt="different image view">
+                        <img :src="selectedObj.imageLink" alt="different image view">
+                        <img :src="selectedObj.imageLink" alt="different image view">
                     </div>
                 </div>
 
                 <div class="product-infomation">
                     <b-card bg-variant="dark" text-variant="white" title="Product Information">
                         <b-card-text class="title-text">
-                            {{ nameObj.name }}
+                            {{ selectedObj.name }}
                         </b-card-text>
-                        <b-card-text>&#8358;{{ nameObj.price }}</b-card-text>
+                        <b-card-text>&#8358;{{ selectedObj.price }}</b-card-text>
                         <b-button href="#" variant="primary">Add to Cart</b-button>
                     </b-card>
 
@@ -25,7 +25,7 @@
             </div>
             <div class="product-infomation">
                 <h3>Product Detail</h3>
-                <p>{{ nameObj.productDetail }}</p>
+                <p>{{ selectedObj.productDetail }}</p>
             </div>
       </div>
 
@@ -33,9 +33,12 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 export default {
     name: 'ProductDetail',
-    props: ['nameObj']
+    computed: {
+        ...mapState(['selectedObj'])
+    }
 }
 </script>
 
