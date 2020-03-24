@@ -64,7 +64,12 @@ export default new Vuex.Store({
                 name: 'Aida TV',
                 price: '108,000',
                 productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
-                imageLink: require('../assets/aida-44-inch.jpg'),
+                imageLink: [
+                    require('../assets/aida-44-inch.jpg'),
+                    require('../assets/aida1.jpg'),
+                    require('../assets/aida2.jpg'),
+                    require('../assets/aida3.jpg')
+                ],
                 categoryId: 3
             },
             {
@@ -72,7 +77,12 @@ export default new Vuex.Store({
                 name: 'Bensoni TV',
                 price: '150,000',
                 productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
-                imageLink: require('../assets/bensoni-hd.jpg'),
+                imageLink: [
+                    require('../assets/bensoni-hd.jpg'),
+                    require('../assets/bensoni-hd1.jpg'),
+                    require('../assets/bensoni-hd1.jpg'),
+                    require('../assets/bensoni-hd.jpg')
+                ],
                 categoryId: 3
             },
             {
@@ -80,7 +90,12 @@ export default new Vuex.Store({
                 name: 'Best Seller',
                 price: '15,000',
                 productDetail: 'Bishop Dag Heward-Mills, an exceptional Christian leader, reveals one of his secrets: "If anyone were to ask me what the greatest secret of my relationship with God is, I would say, without hesitation, that it is the power of the quiet times I have with Him everyday." He has decided to write this book',
-                imageLink: require('../assets/books.jpg'),
+                imageLink: [
+                    require('../assets/books.jpg'),
+                    require('../assets/books1.jpg'),
+                    require('../assets/books2.jpg'),
+                    require('../assets/books3.jpg')
+                ],
                 categoryId: 6
             },
             {
@@ -88,7 +103,12 @@ export default new Vuex.Store({
                 name: 'Loung Chair',
                 price: '40,999',
                 productDetail: 'Our Banquet Chair comes with Aluminum Gold Frame with Blue Pokerdot fabric 25mm aluminum frame,Aluminum tube 25x25 mm with thickness 2.2mm.  Chromed to be painting  scratch and rust resistance, Height to top: 94cm, Width: 43cm, Depth: 41cm, Height to seat: 47cm, Weight: 7.5Kg.These are small size chair.',
-                imageLink: require('../assets/field-loung-chair.jpg'),
+                imageLink: [
+                    require('../assets/field-loung-chair.jpg'),
+                    require('../assets/loung-chair1.jpg'),
+                    require('../assets/lounge-chair2.jpg'),
+                    require('../assets/lounge-chair3.jpg')
+                ],
                 categoryId: 4
             },
             {
@@ -96,7 +116,12 @@ export default new Vuex.Store({
                 name: 'Gass Stove',
                 price: '60,999',
                 productDetail: 'The product information goes here',
-                imageLink: require('../assets/gass-stove.jpg'),
+                imageLink: [
+                    require('../assets/gass-stove.jpg'),
+                    require('../assets/gass-stove1.jpg'),
+                    require('../assets/gass-stove2.jpg'),
+                    require('../assets/gass-stove3.jpg')
+                ],
                 categoryId: 4
             },
             {
@@ -104,7 +129,12 @@ export default new Vuex.Store({
                 name: 'Imose',
                 price: '67,999',
                 productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
-                imageLink: require('../assets/imose-kampe.jpeg'),
+                imageLink: [
+                    require('../assets/imose-kampe.jpeg'),
+                    require('../assets/imose-kampe1.jpg'),
+                    require('../assets/imose-kampe2.jpg'),
+                    require('../assets/imose-kampe2.jpg')
+                ],
                 categoryId: 1
             },
             {
@@ -112,7 +142,12 @@ export default new Vuex.Store({
                 name: 'Old Books',
                 price: '50,999',
                 productDetail: 'Bishop Dag Heward-Mills, an exceptional Christian leader, reveals one of his secrets: "If anyone were to ask me what the greatest secret of my relationship with God is, I would say, without hesitation, that it is the power of the quiet times I have with Him everyday." He has decided to write this book',
-                imageLink: require('../assets/old-books.jpg'),
+                imageLink: [
+                    require('../assets/old-books.jpg'),
+                    require('../assets/books1.jpg'),
+                    require('../assets/books2.jpg'),
+                    require('../assets/books3.jpg')
+                ],
                 categoryId: 6
             },
             {
@@ -120,7 +155,12 @@ export default new Vuex.Store({
                 name: 'Phone',
                 price: '180,999',
                 productDetail: ' The handset is powered by the in-house HiSilicon Kirin 710 chipset coupled with ARM Mali-G51 MP4 GPU. It comes in two variants – 4GB RAM + 64GB and 4GB RAM + 128GB storage. The handset runs on EMUI 9.0 based on Android 9.0 Pie out of the box. There is a rear-mounted fingerprint sensor for biometric security. ',
-                imageLink: require('../assets/phone1.jpg'),
+                imageLink: [
+                    require('../assets/phone1.jpg'),
+                    require('../assets/phone2.jpg'),
+                    require('../assets/phone3.jpg'),
+                    require('../assets/phone4.jpg')
+                ],
                 categoryId: 1
             },
             {
@@ -128,7 +168,12 @@ export default new Vuex.Store({
                 name: 'Samsung',
                 price: '77,999',
                 productDetail: 'Samsung Led transform your living room to a theatre with this breath-taking, 32 -inch television, with an ultra-slim profile and exquisite design. Watch your favorite films and music come to life with its cutting-edge LED display that enables you to watch content in full high definition, the integrated channel speakers allow you to hear every little detail in whatever you choose to watch or listen to. ',
-                imageLink: require('../assets/samsung-galaxy.jpg'),
+                imageLink: [
+                    require('../assets/samsung-galaxy.jpg'),
+                    require('../assets/samsung-galaxy1.jpg'),
+                    require('../assets/samsung-galaxy2.jpg'),
+                    require('../assets/samsung-galaxy3.jpg')
+                ],
                 categoryId: 2
             },
             {
@@ -136,7 +181,12 @@ export default new Vuex.Store({
                 name: 'Turn Chair',
                 price: '30,999',
                 productDetail: 'Our Banquet Chair comes with Aluminum Gold Frame with Blue Pokerdot fabric 25mm aluminum frame,Aluminum tube 25x25 mm with thickness 2.2mm.  Chromed to be painting  scratch and rust resistance, Height to top: 94cm, Width: 43cm, Depth: 41cm, Height to seat: 47cm, Weight: 7.5Kg.These are small size chair.',
-                imageLink: require('../assets/turn-chair.jpg'),
+                imageLink: [
+                    require('../assets/turn-chair.jpg'),
+                    require('../assets/turn-chair1.jpg'),
+                    require('../assets/turn-chair2.jpg'),
+                    require('../assets/turn-chair3.jpg')
+                ],
                 categoryId: 2
             },
             {
@@ -144,7 +194,12 @@ export default new Vuex.Store({
                 name: 'Ingo Table',
                 price: '50,999',
                 productDetail: 'Our Banquet Chair comes with Aluminum Gold Frame with Blue Pokerdot fabric 25mm aluminum frame,Aluminum tube 25x25 mm with thickness 2.2mm.  Chromed to be painting  scratch and rust resistance, Height to top: 94cm, Width: 43cm, Depth: 41cm, Height to seat: 47cm, Weight: 7.5Kg.These are small size chair.',
-                imageLink: require('../assets/ingo-table.jpg'),
+                imageLink: [
+                    require('../assets/ingo-table.jpg'),
+                    require('../assets/ingo-table1.jpg'),
+                    require('../assets/ingo-table2.jpg'),
+                    require('../assets/ingo-table3.jpg')
+                ],
                 categoryId: 6
             }
         ]

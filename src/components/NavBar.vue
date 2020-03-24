@@ -2,7 +2,9 @@
   <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="#">Wuse Market App</b-navbar-brand>
-
+    <b-button>
+      <router-link to="/">Home</router-link>
+    </b-button>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>

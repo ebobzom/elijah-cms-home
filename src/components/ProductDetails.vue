@@ -4,11 +4,11 @@
 
             <div class="container">
                 <div class="img-container">
-                    <img class="main-img" :src="selectedObj.imageLink" alt="main image">
+                    <img class="main-img" :src="selectedObj.imageLink[0]" alt="main image">
                     <div class="sub-img">
-                        <img :src="selectedObj.imageLink" alt="different image view">
-                        <img :src="selectedObj.imageLink" alt="different image view">
-                        <img :src="selectedObj.imageLink" alt="different image view">
+                        <img :src="selectedObj.imageLink[1]" alt="different image view">
+                        <img :src="selectedObj.imageLink[2]" alt="different image view">
+                        <img :src="selectedObj.imageLink[3]" alt="different image view">
                     </div>
                 </div>
 

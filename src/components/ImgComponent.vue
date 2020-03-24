@@ -1,7 +1,7 @@
 <template>
  <div class="products">
      <div v-for="(product, index) in products" :key="index" class="products-items">
-         <b-img class="change-dimension" thumbnail fluid :src="product.imageLink"></b-img>
+         <b-img class="change-dimension" thumbnail fluid :src="product.imageLink[0]"></b-img>
          <p class="name">{{ product.name}}</p>
          <p class="green">Price: &#8358;{{ product.price }}</p>
          <b-button class="button-styles" variant="success">
