@@ -2,7 +2,7 @@
   <div id="app">
     <div id="product-displayc">
         <CategoryBar />
-        <TestPage />
+        <CarouselSlide />
     </div> 
     <ImgComponent />
 
@@ -14,14 +14,14 @@
 
 import CategoryBar from '../components/CategoryBar';
 import ImgComponent from '../components/ImgComponent';
-import TestPage from '../components/TestPage';
+import CarouselSlide from '../components/CarouselSlide';
 
 export default {
     name: 'Home',
     components: {
       CategoryBar,
       ImgComponent,
-      TestPage
+      CarouselSlide
     }
 }
 </script>

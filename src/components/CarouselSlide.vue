@@ -25,6 +25,9 @@ export default {
                 },
                 {
                     imgLink: require('../assets/img4.jpg')
+                },
+                 {
+                    imgLink: require('../assets/elijah.jpg')
                 }
             ]
         }

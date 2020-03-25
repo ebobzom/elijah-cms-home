@@ -3,7 +3,7 @@
      <div v-for="(product, index) in products" :key="index" class="products-items">
          <b-img class="change-dimension" thumbnail fluid :src="product.imageLink[0]"></b-img>
          <p class="name">{{ product.name}}</p>
-         <p class="green">Price: &#8358;{{ product.price }}</p>
+         <p class="green"><span class="price">Price:</span> &#8358;{{ product.price }}</p>
          <b-button class="button-styles" variant="success">
              <span :id="product.id" @click="details(product)" >Buy </span>
         </b-button>
@@ -30,6 +30,10 @@ export default {
 </script>
 
 <style scoped>
+
+    .price{
+        color: rgb(71, 71, 143);
+    }
 
     .change-dimension{
         width:250px;

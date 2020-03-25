@@ -2,13 +2,14 @@
   <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="#">Wuse Market App</b-navbar-brand>
-    <b-button>
-      <router-link to="/">Home</router-link>
-    </b-button>
+   
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->
+      <b-button class="home">
+        <router-link to="/">Home</router-link>
+      </b-button>
       <b-navbar-nav class="ml-auto">
         <b-nav-form>
           <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
@@ -45,5 +46,15 @@ export default {
 </script>
 
 <style>
+.home{
+  background-color: #17a2b8;
+  text-decoration: none;
+  border: none;
+}
 
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
 </style>

@@ -27,5 +27,9 @@ export default {
 </script>
 
 <style>
-
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'); */
+body{
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f5f5;
+}
 </style>

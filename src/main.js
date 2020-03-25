@@ -4,6 +4,9 @@ import VueCarousel from 'vue-carousel';
 import router from './router/router';
 import store from './store/index';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+// import 'bootstrap-css-only/css/bootstrap.min.css'
+// import 'mdbvue/lib/css/mdb.min.css'
+// import '@fortawesome/fontawesome-free/css/all.min.css'
 
 // Install BootstrapVue
 Vue.use(BootstrapVue);
